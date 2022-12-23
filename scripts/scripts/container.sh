@@ -12,5 +12,3 @@ for node in `docker node ls --filter role=worker -q`; do
 done
 
 docker node ls --filter role=worker -q > ${FILE}
-
-#PRECISA SER REVISTO PARA ANALISE
