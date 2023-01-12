@@ -1,0 +1,25 @@
+* r - Read (Leitura):
+   + Arquivo: significa que se pode ler o arquivo (através de um "cat" por
+              exemplo.
+
+   + Diretório: significa que se pode ver o conteúdo do diretório (através de
+                "ls" por exemplo). Porém observe a explicação sobre a
+                permissão de execução mais abaixo.
+
+
+ * w - Write (escrita, gravação)
+   + Arquivo: significa que se pode adicionar conteúdo e alterar um arquivo.
+
+   + Diretório: significa que se pode criar e/ou apagar qualquer, repito
+                QUALQUER, arquivo e/ou diretório que esteja dentro deste,
+                mesmo que não se tenha permissão alguma para o
+                arquivo/diretório a ser apagado. Observe a explicação sobre
+                permissão de execução abaixo e "sticky bit" em 2.2.
+                Dica: NUNCA deixe o seu diretório home com esta permissão para
+                outros (também conhecida como world-writable).
+
+
+ * x - eXecute (execução)
+   + Arquivo: pode-se executar o programa ou shell script (se um arquivo texto
+              não for um script e tiver esta permissão e você executar vai dar
+              um monte de "command not found").
