@@ -1,3 +1,7 @@
 'aspas simples': atribuem o conteúdo exato do que está escrito entre as aspas simples à uma variável.
 
 "aspas duplas": atribuem a string que está entre as aspas duplas, bem como valor das variáveis que porventura podem estar entre elas (como no segundo exemplo acima, onde usamos a variável $PATH).
+
+nada: similar as aspas duplas, porém ignora espaços excedentes.
+
+`crases`: atribuem a saída do comando que está entre elas, tem a capacidade de ver o conteúdo de uma variável (no último exemplo acima, onde usamos `ls $HOME`);
