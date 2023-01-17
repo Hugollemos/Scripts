@@ -5,3 +5,7 @@
 nada: similar as aspas duplas, porém ignora espaços excedentes.
 
 `crases`: atribuem a saída do comando que está entre elas, tem a capacidade de ver o conteúdo de uma variável (no último exemplo acima, onde usamos `ls $HOME`);
+
+Outra coisa interessante é o uso das {chaves}. Você pode usar as chaves para exibir uma variável (ex.: echo ${teste}), isso é útil quando você precisa separar a variável do que vem depois dela. Veja isto:
+
+Outra coisa interessante é o uso das {chaves}. Você pode usar as chaves para exibir uma variável (ex.: echo ${teste}), isso é útil quando você precisa separar a variável do que vem depois dela. Veja isto:
