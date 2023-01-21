@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+read -p "Digite seu nome: " nome
+read -p "Qual a sua cidade " cidade
+echo "Muito prazer, $nome!"
+echo "Olá mundoooooooooooooo, $cidade"
