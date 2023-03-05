@@ -1,0 +1,12 @@
+#!/bin/bash
+find . -name \*.bash*
+find . -atime +1
+# Localizando arquivos no sistema
+#ele serve para procurar arquivos pelo nome e outras características.
+#* usado em expressões é o mesmo que qualquer coisa; nesse exemplo significa “busque por ar- quivos que comecem com net e terminem com qualquer coisa”.
+
+find [caminho] expressão [ação]
+• -name procura arquivos pelo nome;
+• -user procura arquivos pelo nome do usuário dono do arquivo;
+• -atime procura arquivos que foram acessados há mais de x dias, onde x é o
+número de dias.
